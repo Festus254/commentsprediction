@@ -19,7 +19,7 @@ wn = nltk.WordNetLemmatizer()
 option = st.sidebar.selectbox(
    'Which ML model would you like to use?',
      ('Logistic Regression', 'Linear SVC', 'Naive Bayes'))
-st.sidebar.write('You selected:', option)
+st.write('You selected:', option)
 st.title('Toxic Comment Analysis.')
 st.markdown('''
 	Used Natural language Processing to clean and vectorize input data and
