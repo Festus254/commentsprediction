@@ -10,7 +10,7 @@ import timeit
 #from sklearn import 
 #from prob_svm import LinearSVC_proba
 
-nltk.download('stopwords')
+nltk.download('popular')
 
 stopwords = nltk.corpus.stopwords.words('english')
 ps = nltk.PorterStemmer()
